@@ -1,15 +1,20 @@
-from flask import Flask
+import unittest
+from app import app
 
-app = Flask(__name__)
+class FlaskTestCase(unittest.TestCase):
 
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
+    def setUp(self):
+        self.tester = app.test_client(self)
 
-@app.route('/new-one')
-def hello_world():
-    return 'a whole new world!'
+    def test_index(self):
+        response = self.tester.get('/')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.data, b'Hello, World!')
 
+    def test_new_one(self):
+        response = self.tester.get('/new-one')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.data, b'a whole new world!')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    unittest.main()
