@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.0.0...v1.1.0) (2024-07-24)
+
+
+### Bug Fixes
+
+* remove test ([ad8394f](https://github.com/d-sanderson/flask-app-semantic-release/commit/ad8394f9e83fd4b35967ebef33b4a04a7c5f9b69))
+
+
+### Features
+
+* add new route ([0b18575](https://github.com/d-sanderson/flask-app-semantic-release/commit/0b18575c27e4cc8aa884e27c2d4061f61ff45f70))
+
 # 1.0.0 (2024-07-24)
 
 
