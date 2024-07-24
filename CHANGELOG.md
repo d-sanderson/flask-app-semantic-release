@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.2.0...v1.3.0) (2024-07-24)
+
+
+### Features
+
+* add route ([d311d93](https://github.com/d-sanderson/flask-app-semantic-release/commit/d311d9350640437b44ac396b69a9afba4c1ba89a))
+
 # [1.2.0](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.1.0...v1.2.0) (2024-07-24)
 
 
