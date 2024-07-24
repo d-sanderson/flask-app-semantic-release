@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.1.0...v1.2.0) (2024-07-24)
+
+
+### Features
+
+* add @semantic-release/exec ([41140cb](https://github.com/d-sanderson/flask-app-semantic-release/commit/41140cb2c07ba6569849ccf4c694c4fded0dfc01))
+* add version file ([7bdff4b](https://github.com/d-sanderson/flask-app-semantic-release/commit/7bdff4bc83f1d08e1fd51e564d59eeb5ac1a1a46))
+
 # [1.1.0](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.0.0...v1.1.0) (2024-07-24)
 
 
