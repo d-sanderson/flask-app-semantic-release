@@ -9,5 +9,11 @@ class FlaskTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.data, b'Hello, World!')
 
+    def test_new_one(self):
+        tester = app.test_client(self)
+        response = tester.get('/new-one')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.data, b'a whole new world!')
+
 if __name__ == '__main__':
     unittest.main()
