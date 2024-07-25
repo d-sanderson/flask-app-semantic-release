@@ -6,11 +6,22 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
+    [
+      "@semantic-release/exec",
       {
-        "path": "@semantic-release/exec",
-        "cmd": "./publish.sh ${nextRelease.version}"
-      },
+        "prepareCmd": "echo \"__version__='${nextRelease.version}'\" > version.py"
+      }
+    ],
     "@semantic-release/github",
-    "@semantic-release/git"
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "version.py",
+          "CHANGELOG.md"
+        ],
+        "message": "chore(release): set `version.py` to ${nextRelease.version} [skip ci]"
+      }
+    ]
   ]
 }
