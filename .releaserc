@@ -9,7 +9,7 @@
     [
       "@semantic-release/exec",
       {
-        "successCmd": "echo \"__version__='${nextRelease.version}'\" > version.py"
+        "verifyReleaseCmd": "echo \"__version__='${nextRelease.version}'\" > version.py"
       }
     ],
     "@semantic-release/github",
