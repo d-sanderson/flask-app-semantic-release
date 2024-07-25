@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.4.0...v1.5.0) (2024-07-25)
+
+
+### Features
+
+* add new test ([bba9003](https://github.com/d-sanderson/flask-app-semantic-release/commit/bba9003d1bc3c19a5937c54b2d8e06487af0864e))
+
 # [1.4.0](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.3.2...v1.4.0) (2024-07-25)
 
 
