@@ -15,6 +15,12 @@ class FlaskTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.data, b'Semantic Release')
 
+    def test_other_route(self):
+        tester = app.test_client(self)
+        response = tester.get('/other')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.data, b'Other Route')
+
 if __name__ == '__main__':
     unittest.main()
 
