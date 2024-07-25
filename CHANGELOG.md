@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.3.2...v1.4.0) (2024-07-25)
+
+
+### Bug Fixes
+
+* ad import ([22e0e89](https://github.com/d-sanderson/flask-app-semantic-release/commit/22e0e8940e77d8737c78fb8e364b921b9d0fba70))
+* change root dir ([d20ffcf](https://github.com/d-sanderson/flask-app-semantic-release/commit/d20ffcf88eac41c4bf5dcc3d17219c2eabd920c5))
+* indent ([cff6ca6](https://github.com/d-sanderson/flask-app-semantic-release/commit/cff6ca690c5c84525740576e8f9edddbfc7cf505))
+
+
+### Features
+
+* use plaintext file for versioning ([a20364b](https://github.com/d-sanderson/flask-app-semantic-release/commit/a20364b7c5ed46036823ef7ac4f25e7457c2819b))
+
 ## [1.3.2](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.3.1...v1.3.2) (2024-07-25)
 
 
