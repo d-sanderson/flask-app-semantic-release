@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.3.1...v1.3.2) (2024-07-25)
+
+
+### Bug Fixes
+
+* update cmd ([c9ed920](https://github.com/d-sanderson/flask-app-semantic-release/commit/c9ed920a9d50baa7aeb5e13c13b1af867e1f67ce))
+
 ## [1.3.1](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.3.0...v1.3.1) (2024-07-25)
 
 
