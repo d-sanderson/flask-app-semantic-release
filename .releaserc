@@ -9,19 +9,10 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "echo \"__version__='${nextRelease.version}'\" > version.py"
+        "successCmd": "echo \"__version__='${nextRelease.version}'\" > version.py"
       }
     ],
     "@semantic-release/github",
-    [
-      "@semantic-release/git",
-      {
-        "assets": [
-          "version.py",
-          "CHANGELOG.md"
-        ],
-        "message": "chore(release): set `version.py` to ${nextRelease.version} [skip ci]"
-      }
-    ]
+    "@semantic-release/git"
   ]
 }
