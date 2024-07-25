@@ -6,13 +6,13 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    [
+    "@semantic-release/github",
+      [
       "@semantic-release/exec",
       {
-        "verifyReleaseCmd": "echo \"__version__='${nextRelease.version}'\" > version.py"
+        "successCmd": "echo ${nextRelease.version} > VERSION.txt && git add VERSION.txt && git commit -m 'chore(release): update VERSION.txt to ${nextRelease.version}' && git push"
       }
     ],
-    "@semantic-release/github",
     "@semantic-release/git"
   ]
 }
