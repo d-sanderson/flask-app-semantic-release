@@ -1,4 +1,4 @@
-name: Issue Release, Changelog, and Tag
+name: Issue Release, Changelog, and Tag (see .releaserc for config)
 
 on:
   push:
