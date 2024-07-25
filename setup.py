@@ -1,6 +1,6 @@
 from setuptools import setup
 
-with open(os.path.join(mypackage_root_dir, 'VERSION')) as version_file:
+with open(os.path.join('./', 'VERSION')) as version_file:
 
   setup(
    name='flask-semantic-release',
