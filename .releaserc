@@ -6,12 +6,10 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    [
-      "@semantic-release/exec",
       {
-        "prepareCmd": "echo \"__version__='${nextRelease.version}'\" > version.py"
-      }
-    ],
+        "path": "@semantic-release/exec",
+        "cmd": "./publish.sh ${nextRelease.version}"
+      },
     "@semantic-release/github",
     "@semantic-release/git"
   ]
