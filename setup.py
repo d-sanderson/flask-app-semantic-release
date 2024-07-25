@@ -1,5 +1,5 @@
-from setuptools import setup
-
+import os
+from setuptools import setup, find_packages
 with open(os.path.join('./', 'VERSION')) as version_file:
 
   setup(
