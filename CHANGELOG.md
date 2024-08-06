@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.5.0...v1.6.0) (2024-08-06)
+
+
+### Features
+
+* add README.md ([ed0c279](https://github.com/d-sanderson/flask-app-semantic-release/commit/ed0c27908c90782b8034cf504dbfc351bf479546))
+
 # [1.5.0](https://github.com/d-sanderson/flask-app-semantic-release/compare/v1.4.0...v1.5.0) (2024-07-25)
 
 
